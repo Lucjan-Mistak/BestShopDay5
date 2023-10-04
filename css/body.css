@@ -1,0 +1,26 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --color-primary: #08A6E4;
+    --color-black: #000000;
+    --color-redish: #FB3B64;
+    --color-white: #FFFFFF;
+    --color-green: #55DFB4;
+    --color-lightgrey: #F7F7F7;
+    --color-grey: #A5A5A5;
+    --shadow-primary: rgba(7, 172, 230, .16)
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
