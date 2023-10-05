@@ -1,0 +1,35 @@
+
+.page-header {
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    font-family: var(--secondary-font-ral);
+    font-size: 3.2rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+.header-nav {
+    display: flex;
+    gap: 95px;
+}
+.header-nav a {
+    text-decoration: none;
+    color: var(--color-grey);
+    font-size: 1.1rem;
+    letter-spacing: 0.328rem;
+    font-weight: bold;
+
+}
+.header-nav a:hover {
+    padding-bottom: 2.5rem;
+    border-bottom: 4px solid var(--color-primary);
+    color: var(--color-black);
+}

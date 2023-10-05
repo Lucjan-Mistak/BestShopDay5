@@ -8,8 +8,8 @@ html {
 }
 
 :root {
-    --primary-font: 'Open Sans', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+    --primary-font-os: 'Open Sans', sans-serif;
+    --secondary-font-ral: 'Raleway', sans-serif;
     --color-primary: #08A6E4;
     --color-black: #000000;
     --color-redish: #FB3B64;
@@ -23,4 +23,8 @@ html {
 .container {
     width: 1352px;
     margin: 0 auto;
+}
+
+body {
+    font-family: var(--primary-font-os);
 }
