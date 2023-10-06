@@ -1,0 +1,96 @@
+.benefits {
+    padding: 100px 0;
+    height: 140rem;
+    background-color: var(--color-lightgrey);
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.benefits-title {
+    font-family: var(--secondary-font-ral);
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 4.2rem;
+}
+
+.benefits-text {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.benefits-text:after {
+    content: "";
+    display: block;
+    width: 328px;
+    border-radius: 2px;
+    margin-top: 5rem;
+}
+.benefits__single--text:nth-child(1) .benefits-text:after {
+    border: 2px solid var(--color-redish);
+}
+.benefits__single--text:nth-child(2) .benefits-text:after {
+    border: 2px solid var(--color-primary);
+}
+.benefits__single--text:nth-child(3) .benefits-text:after {
+    border: 2px solid var(--color-green);
+}
+
+.benefits__single--text {
+    max-width: 41.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.benefits__single {
+    height: 370px;
+    width: auto;
+    background-color: var(--color-white);
+    padding: 36px 38px;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.benefits__img--mac img {
+    width: 386px;
+    height: auto;
+}
+.benefits__img--phone img {
+    width: 386px;
+    height: auto;
+}
+.benefits__img--trump img {
+    width: 300px;
+    height: auto;
+}
+.benefits__multi {
+    height: 370px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 61px
+}
+
+.benefits__multi .benefits__single--text {
+    max-width: 750px;
+    padding: 36px 38px;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    background-color: var(--color-white);
+}
+.benefits__multi .benefits__img--trump {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    background-color: var(--color-green);
+    flex-grow: 2;
+}
