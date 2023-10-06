@@ -1,0 +1,106 @@
+.pricing__title {
+    font-family: var(--secondary-font-ral);
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10rem;
+}
+.pricing .container {
+    max-width: 126.6rem;
+    height: 60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricing__type {
+    font-family: var(--secondary-font-ral);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.pricing__value {
+    font-size: 4.6rem;
+    font-weight: 300;
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
+}
+.pricing__basic .pricing__value {
+    color: var(--color-redish);
+}
+.pricing__professional .pricing__value {
+    color: var(--color-primary);
+}
+.pricing__premium .pricing__value {
+    color: var(--color-green);
+}
+.pricing__offer {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 4.1rem;
+}
+.pricing__offer:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 1rem;
+    background-image: url("../assets/Ckechmark-1.svg");
+    background-position: center;
+    background-size: cover;
+}
+.pricing__offer--not::before {
+    background-image: url("../assets/Close.svg");
+}
+.pricing__limited {
+    font-family: var(--secondary-font-ral);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.pricing__btn {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 4.1rem;
+    padding: 8px 65px;
+    text-decoration: none;
+    color: var(--color-white);
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 23px;
+    position: absolute;
+    bottom: -30px;
+    left: 30%;
+
+}
+.pricing__basic .pricing__btn {
+    background-color: var(--color-redish);
+}
+.pricing__professional .pricing__btn {
+    background-color: var(--color-primary);
+}
+.pricing__premium .pricing__btn {
+    background-color: var(--color-green);
+}
+.pricing__offers {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+.pricing__items {
+    width: 370px;
+    height: 460px;
+    text-align: center;
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.pricing__items:nth-child(2) {
+    width: 405px;
+    height: 500px;
+    border: 1px solid var(--color-primary);
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+.pricing__items:nth-child(3) {
+    border: 1px solid var(--color-green);
+}

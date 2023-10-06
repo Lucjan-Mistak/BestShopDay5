@@ -1,12 +1,14 @@
 .benefits {
-    padding: 100px 0;
-    height: 140rem;
+    padding: 100px 0 0;
+    height: 136rem;
     background-color: var(--color-lightgrey);
     display: flex;
     flex-direction: column;
     gap: 37px;
 }
-
+.benefits .container {
+    max-width: 1124px;
+}
 .benefits-title {
     font-family: var(--secondary-font-ral);
     font-size: 3.6rem;
@@ -34,7 +36,7 @@
 .benefits__single--text:nth-child(2) .benefits-text:after {
     border: 2px solid var(--color-primary);
 }
-.benefits__single--text:nth-child(3) .benefits-text:after {
+.benefits__multi .benefits__single--text:nth-child(1) .benefits-text:after {
     border: 2px solid var(--color-green);
 }
 
@@ -60,14 +62,39 @@
 .benefits__img--mac img {
     width: 386px;
     height: auto;
+    position: relative;
+    z-index: 2;
 }
+.benefits__img--mac:before {
+    content: "";
+    display: block;
+    background-color: var(--color-redish);
+    height: 240px;
+    width: 240px;
+    border-radius: 41px;
+    position: absolute;
+    transform: rotate(45deg);
+
+}
+
 .benefits__img--phone img {
-    width: 386px;
+    width: 380px;
     height: auto;
+    position: relative;
+    z-index: 2;
 }
+.benefits__img--phone {
+    background-color: var(--color-primary);
+    height: 255px;
+    width: 255px;
+    border-radius: 50%;
+}
+
 .benefits__img--trump img {
     width: 300px;
     height: auto;
+    position: relative;
+    z-index: 2;
 }
 .benefits__multi {
     height: 370px;
@@ -78,7 +105,7 @@
 }
 
 .benefits__multi .benefits__single--text {
-    max-width: 750px;
+    max-width: 600px;
     padding: 36px 38px;
     border: 1px solid #E8E9ED;
     border-radius: 5px;
@@ -92,5 +119,5 @@
     border: 1px solid #E8E9ED;
     border-radius: 5px;
     background-color: var(--color-green);
-    flex-grow: 2;
+    flex-grow: 1;
 }
