@@ -1,4 +1,8 @@
-.hero .container {
+.hero {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -15,7 +19,7 @@
     line-height: 2.2rem;
     font-size: 1.6rem;
     font-weight: 400;
-    margin-bottom: 6rem;
+    margin-bottom: 3.8rem;
 }
 
 .hero-btn {
