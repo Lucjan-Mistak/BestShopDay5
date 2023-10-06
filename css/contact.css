@@ -1,0 +1,107 @@
+.contact .container {
+    max-width: 90rem;
+    height: 37.6rem;
+    margin-top: 15.9rem;
+    display: flex;
+}
+.contact__title {
+    font-family: var(--secondary-font-ral);
+    font-size: 4.9rem;
+    font-weight: 400;
+    line-height: 5.7rem;
+    margin-bottom: 2.2rem;
+}
+.contact__left,
+.contact__right {
+    width: 50%;
+}
+.contact__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    margin-bottom: 4.2rem;
+}
+.contact__link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    color: var(--color-grey);
+    margin-right: 2rem;
+}
+.form__label {
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+.contact__right {
+    display: flex;
+    flex-direction: column;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+.contact__write {
+    display: flex;
+    flex-direction: column;
+}
+.contact__checkbox {
+    display: flex;
+}
+.input {
+    border: none;
+    border-bottom: 1px solid #95989A;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.form__checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.form__checkbox input {
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+.form__checkbox .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+}
+.form__checkbox input:checked ~.checkbox {
+    background-image: url("../assets/Checkmark.svg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.checkbox__text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: var(--color-grey);
+}
+.contact__btn {
+    color: var(--color-white);
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    background-color: var(--color-primary);
+    align-self: flex-end;
+    padding: 20px 98px;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 5px 10px 14px #07ACE629;
+
+}
