@@ -58,7 +58,9 @@
     align-items: center;
     margin-bottom: 37px;
 }
-
+.benefits__img--mac {
+    position: relative;
+}
 .benefits__img--mac img {
     width: 386px;
     height: auto;
@@ -73,6 +75,8 @@
     width: 240px;
     border-radius: 41px;
     position: absolute;
+    top: -22px;
+    left: 170px;
     transform: rotate(45deg);
 
 }
